@@ -1,0 +1,56 @@
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+div h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.search-area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input.form-control {
+    width: max-content;
+}
+
+.qrcode-output {
+    justify-content: center;
+    display: flex;
+    margin: 30px 0px 20px 0px;
+}
+
+div.qrcode-output {
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.downloadbtn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    margin: 20px;
+}
+
+div.qr-area {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
