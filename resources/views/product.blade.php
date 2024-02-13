@@ -33,9 +33,10 @@
             <button class="btn btn-success mt-5 " id="downloadBtn" style="display: none;"
                 onclick="downloadImage()">Download
                 QR
-                Code</button>
+                Code test</button>
         </div>
     </div>
+
 
 
 
